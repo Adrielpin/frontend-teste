@@ -1,0 +1,46 @@
+﻿<ion-view view-title="Login" class="login">
+
+	<ion-content>
+
+		<div class="container">
+
+			<form ng-submit="login()">
+
+				<div class="row logo">
+				</div>
+
+				<div class="row">
+					<div class="input-field col s12">
+					<input id="username" type="text" ng-model="data.username">
+						<label for="username" class="center-align">Matricula</label>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="password" type="password" ng-model="data.password">
+						<label for="password">Senha</label>
+					</div>
+				</div>
+
+				<div class="row">          
+					<div class="input-field col s12 login-text">
+						<input type="checkbox" id="remember-me">
+						<label for="remember-me">Remember me</label>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="input-field col s12">
+						<button class="btn waves-effect waves-light col s12" type="submit">Login</button>
+					</div>
+				</div>
+
+			</form>
+		</div>
+
+	</ion-content>
+
+</ion-view>
+
+
